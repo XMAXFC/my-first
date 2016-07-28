@@ -1,16 +1,184 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>未来的科技傲娇</title>
+        <style type="text/css">
+        	*	{
+        		margin: 0;
+        		padding: 0;
+        	}
+        	ul {
+        		list-style: none;
+        	}
+			.one {
+				height: 100px;
+				background-image: url("x.png");
+			}
+			h1 {
+				color: #5827da;
+				line-height: 100px;
+				text-align: center;
+				font-size: 40px;
+			}
 
-# Book build output
-_book
+			.two {
+				width: 300px;
+				height: 1000px;
+				background-image: url('g.jpg');
+				background-position: -940px -100px;
+				float: left;
+			}
+			.two:after{
+				content:"";
+				height: 0;
+				line-height:0;
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+			.two {
+				zoom: 1;
+			}
+			.three {
+				width: 300px;
+				height: 1000px;
+				background-image: url('yy.jpg');
+				background-position: -1000px -100px;
+				float: right;
+			}
+			.three:after{
+				content:"";
+				height: 0;
+				line-height:0;
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+			.three {
+				zoom: 1;
+			}
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+			.z {
+				float: left;
+				width: 187.2px;
+				height: 38px;
+				background-color: #4a0b36;
+				/* color: #8de0d8; 控制的是文本的字颜色，而不是连接，连接需要伪元素 */
+				line-height: 38px;
+				text-align: center;
+				font: strong 18px "宋体";
+			}
+			a:link {
+				color: #07f807;
+				text-decoration: none;
+			}
+			.z:hover {
+				color: red;
+				font-size: 24px;
+				position: relative;
+				top: 10px;
+				left: 0;
+			}    
+			a:hover {
+				color: red;
+				font-size: 24px;
+		     }
+		     a:visited {
+		     	color: #2e94d1;
+		     }
+
+			.five {
+				width:1500px;
+				height: 1000px;
+				background-image: url("f.jpg");
+				/* position: relative;会出错哦 */
+			}
+
+			.six {
+				width: 280px;
+				height: 370px;
+				background: url("c.jpg") -168px -60px;
+				position: absolute;
+				top: 150px;
+				left: 700px;
+			}
+			.seven {
+				width: 280px;
+				height: 368px;
+				background: url("ccf.jpg") -45px ;
+				position: absolute;
+				top: 500px;
+				left: 350px;				
+			}
+			.eight {
+				width: 300px;
+				height: 300px;
+				background: url("o1.jpg") -100px;
+				position: absolute;
+				top: 760px;
+				left: 680px;				
+			}
+
+			.ten {
+				width: 200px;
+				height: 50px;
+				position: absolute;
+				top: 700px;
+				left: 770px;	
+				color: #75fbc6;	
+				font: 40px "宋体";
+			}
+
+			.x {
+				width: 98px;
+				height: 98px;
+				border: 1px dotted #59f9e9;
+				line-height: 30px;
+				text-align: center;
+				float: left;
+				color: #f878ae;
+				line-height: 100px;
+			}
+			li.x:hover {
+				color: red;
+				background-color: rgba(206, 255, 253, 0.99);
+				font-size: 24px;
+			}
+        </style>
+    </head>
+    <body>
+    	<div class="one">
+			<h1>科幻世界欢迎你</h1>
+    	</div>
+    	<div class="two"></div>
+    	<div class="three"></div>
+    	<div class="four">
+    		<ul>
+    			<li class="z"><a href="#" ait="触怒来了" title="你好，人类">核控仓</a></li>
+    			<li class="z"><a href="#" ait="触怒来了" title="你好，人类">机动室</a></li>
+    			<li class="z"><a href="#" ait="触怒来了" title="你好，人类">外景艇</a></li>
+    			<li class="z"><a href="#" ait="触怒来了" title="你好，人类">休息堡</a></li>
+    		</ul>
+    	</div>
+    	<div class="five">
+    		<div class="six"></div>
+    		<div class="seven"></div>
+    		<div class="eight">
+    			<ul class=q>
+    				<li class="x">杨洋</li>
+    				<li class="x">萌妹纸</li>
+    				<li class="x">我</li>
+    				<li class="x">我</li>
+    				<li class="x">杨洋</li>
+    				<li class="x">萌妹纸</li>
+    				<li class="x">萌妹纸</li>
+    				<li class="x">我</li>
+    				<li class="x">杨洋</li>
+    			</ul>
+    		</div>
+    		<div class="ten">谁最帅</div>
+    	</div>
+    </body>
+</html>
